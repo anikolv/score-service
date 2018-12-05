@@ -26,4 +26,8 @@ public class UserScoreboard {
 	 public void incrementPoints(Long points) {
 		 totalPoints+=points;
 	 }
+	 
+	 public void incrementGames() {
+		 totalGames+=1;
+	 }
 }

@@ -31,6 +31,7 @@ public class UserScoreboardController {
 		UserScoreboard scoreboard = null;
 		if (scoreBoard.isPresent()) {
 			scoreboard = (UserScoreboard) scoreBoard.get();
+			scoreboard.incrementGames();
 			scoreboard.incrementPoints(scoreDTO.getPoints());
 		} else {
 			scoreboard = new UserScoreboard();
