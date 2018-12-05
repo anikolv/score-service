@@ -1,11 +1,11 @@
-Running the application from source code (requires maven and java): 
+Running the application from source code (requires java): 
 -------------
 
-mvn spring-boot:run
+mvnw spring-boot:run
 
 OR
 
-mvn clean package
+mvnw clean package
 
 java -jar target/score-service-1.0.0.jar
 
