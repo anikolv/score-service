@@ -18,7 +18,6 @@ public class UserScoreboard {
 	 @GeneratedValue(strategy = GenerationType.IDENTITY)
 	 @JsonIgnore
 	 private Long id;
-	 @JsonIgnore
 	 private Long userId;
 	 private Long totalGames;
 	 private Long totalPoints;
