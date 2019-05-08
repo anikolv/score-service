@@ -11,7 +11,7 @@
 	<groupId>com.unisofia.fmi</groupId>
 	<artifactId>score-service</artifactId>
 	<version>1.0.0</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>score-service</name>
 	<description>Score microservice</description>
 
@@ -58,6 +58,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
